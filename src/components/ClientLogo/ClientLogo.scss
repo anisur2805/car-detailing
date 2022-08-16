@@ -1,0 +1,19 @@
+.cd__client_logo {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background: var(--white);
+
+    &_item_wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+		flex-wrap: wrap;
+    }
+}
+
+
+@media (max-width: 1024px) {
+	.cd__client_logo_item_wrapper {
+		justify-content: center;
+	}
+}

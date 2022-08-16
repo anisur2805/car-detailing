@@ -1,11 +1,13 @@
-import './App.css';
+import Home from './pages/Home/Home';
+import './assets/bootstrap.css';
+import './components/Styles/index.scss';
+import Header from './Layout/Header';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Template is Ready for PLAY :) </h1>
-      </header>
+      <Header />
+      <Home  />
     </div>
   );
 }

@@ -1,0 +1,42 @@
+.cd__services {
+    padding-top: 120px;
+    // padding-bottom: 180px;
+	background: var(--light-gray); 
+    h3 {
+        text-align: center;
+		margin-bottom: 40px;
+    }
+
+	.mb-120px {
+		margin-bottom: -120px;
+		z-index: 1;
+	}
+
+    &_box {
+		min-height: 250px;
+		padding-top: 45px;
+		background: var(--white);
+		border-radius: 10px;
+
+		h4 {
+			margin: 20px auto 10px;
+			font-size: 22px;
+			line-height: 27px;
+			font-weight: 700;
+			color: var( --erie-black);
+			transition: all 0.3s;
+		}
+
+		&:hover {
+			cursor: pointer;
+			h4 {
+				color: var(--venetian-red);
+			}
+		}
+    }
+}
+
+
+section.test {
+	height: 500px;
+}

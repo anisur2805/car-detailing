@@ -1,0 +1,17 @@
+@media (max-width: 1024px) {
+    .cd__client_logo {
+        &_item_wrapper {
+            justify-content: center;
+			gap: 20px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .cd__client_logo {
+        &_item_wrapper {
+            justify-content: center;
+			gap: 10px;
+        }
+    }
+}

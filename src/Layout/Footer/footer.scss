@@ -1,0 +1,55 @@
+// Footer Top Style
+.cd__footer_top {
+    padding-top: 215px;
+    padding-bottom: 70px;
+    .cd__footer_logo {
+        color: var(--erie-black);
+        margin-bottom: 40px;
+        span {
+            color: var(--venetian-red);
+        }
+    }
+
+    &_title {
+        color: var(--erie-black);
+        font-size: 18px;
+        line-height: 25px;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+
+    &_subtitle {
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 400;
+        color: var(--sonic-silver);
+        margin-bottom: 15px;
+    }
+
+    ul {
+        a {
+            font-size: 14px;
+            line-height: 30px;
+            font-weight: 400;
+            color: var(--sonic-silver);
+            margin-bottom: 14px;
+            transition: all 0.3s;
+            &:hover {
+                color: var(--venetian-red);
+            }
+        }
+    }
+}
+
+// Main Footer
+.cd__footer {
+    background: var(--cultured);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    p {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 400;
+        color: var(--sonic-silver);
+    }
+}

@@ -1,0 +1,19 @@
+.cd__form {
+	form {
+		display: flex;
+		align-items: center;
+	}
+    input {
+        font-size: 14px;
+        line-height: 26px;
+        font-weight: 400;
+        padding: 11px 10px;
+        border: 1px solid var(--input-border-color);
+    }
+	button {
+		background: var(--venetian-red);
+		color: var(--white );
+		width: 50px;
+		height: 50px;
+	}
+}
