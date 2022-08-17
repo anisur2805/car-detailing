@@ -1,0 +1,33 @@
+$medium: 1024px;
+$small: 767px;
+
+.cd__banner {
+    padding-top: 230px;
+    padding-bottom: 230px;
+    background: url(../../assets/static-images/banner.jpg);
+    position: relative;
+    &_content {
+        z-index: 2;
+
+        p {
+            margin: 10px auto 15px;
+            color: var(--white);
+			max-width: 480px;
+        }
+    }
+    &_overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: var(--overlay-bg);
+        z-index: 1;
+    }
+
+	@media screen and (max-width: $medium) {
+		padding-top: 120px;
+		padding-bottom: 120px;
+	}
+	
+}

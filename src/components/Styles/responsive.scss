@@ -1,4 +1,22 @@
 @media (max-width: 1024px) {
+    h1 {
+        font-size: 45px;
+        line-height: 60px;
+    }
+    
+    h2 {
+        font-size: 36px;
+    }
+    
+    h3 {
+        font-size: 30px;
+    }
+    
+    h4 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
     .cd__client_logo {
         &_item_wrapper {
             justify-content: center;
@@ -13,5 +31,18 @@
             justify-content: center;
 			gap: 10px;
         }
+    }
+
+    h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    
+    h2 {
+        font-size: 30px;
+    }
+    
+    h3 {
+        font-size: 26px;
     }
 }
