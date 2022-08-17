@@ -2,4 +2,14 @@
     padding-top: 12px;
     padding-bottom: 12px;
 	background: var(--cultured);
+    p {
+        font-size: 15px;
+        line-height: 26px;
+        color: var(--erie-black);
+        a {
+            &:hover {
+                color: var(--venetian-red);
+            }
+        }
+    }
 }

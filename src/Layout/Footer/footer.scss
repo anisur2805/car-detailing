@@ -1,3 +1,4 @@
+$small: 767px;
 // Footer Top Style
 .cd__footer_top {
     padding-top: 215px;
@@ -5,6 +6,9 @@
     .cd__footer_logo {
         color: var(--erie-black);
         margin-bottom: 40px;
+        @media(max-width: $small ) {
+            margin-bottom: 0;
+        }
         span {
             color: var(--venetian-red);
         }
@@ -41,6 +45,24 @@
     }
 }
 
+.cd__footer_top_item {
+    .cd__socials_wrapper {
+        margin-top: 20px;
+    }
+    &_address {
+        li {
+            font-size: 14px;
+            line-height: 30px;
+            font-weight: 400;
+            color: var(--sonic-silver);
+        }
+    }
+}
+
+.cd__socials_wrapper a:first-child {
+    margin-left: 0;
+}
+
 // Main Footer
 .cd__footer {
     background: var(--cultured);
@@ -51,5 +73,8 @@
         line-height: 20px;
         font-weight: 400;
         color: var(--sonic-silver);
+    }
+    &_logo h3 {
+        font-size: 28px;
     }
 }

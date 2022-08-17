@@ -4,7 +4,7 @@ $small: 767px;
 .cd__banner {
     padding-top: 230px;
     padding-bottom: 230px;
-    background: url(../../assets/static-images/banner.jpg);
+    background: url(../../assets/static-images/banner.jpg) no-repeat center center/ cover;
     position: relative;
     &_content {
         z-index: 2;
