@@ -44,7 +44,7 @@ function FooterTop() {
 						</div>
 					</div>
 
-					<div className="col-sm-12 col-md-6 col-lg-4">
+					<div className="col-sm-12 col-md-6 col-lg-3">
 						<div className="cd__footer_top_item">
 							<h4 className='cd__footer_top_title'>Newsletter</h4>
 							<p className="cd__footer_top_subtitle">Cras quis lobortis enim morbi congue sem Curabitur id augue  ipsum</p>
