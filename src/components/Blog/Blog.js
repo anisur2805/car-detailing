@@ -49,7 +49,8 @@ const Blog = () => {
 		speed: 500,
 		slidesToShow: 3,
 		slidesToScroll: 1,
-		autoplay: true,
+		autoplay: false,
+		arrows: false
 	};
 
 	const blogItem = blogPosts.map(item => (
@@ -73,7 +74,7 @@ const Blog = () => {
 									<li><a href="/blog">{item.categories}</a></li>
 								</ul>
 							</div>
-							<div className="rs-view-btn"><a href="/blog/single-post-right-sidebar">Read
+							<div className="cd__view_btn"><a href="/blog/single-post-right-sidebar">Read
 								More</a></div>
 						</div>
 					</div>
@@ -83,7 +84,7 @@ const Blog = () => {
 	));
 
 	return (
-		<div className="rs-blog main-home pb-100 pt-100 md-pt-70 md-pb-70">
+		<div className="cd__blog pb-100 pt-100 md-pt-70 md-pb-70">
 			<div className="container">
 				<div className="sec-title3 text-center mb-50 aos-init">
 					<div className="sub-title">News Update</div>
