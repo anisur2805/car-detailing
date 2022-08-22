@@ -72,7 +72,7 @@ function FooterTop() {
 						</div>
 					</div>
 
-					<div className="col-md-3">
+					<div className="col-sm-12 col-md-6 col-lg-4">
 						<div className="cd__footer_top_item">
 							{footerAddress && <ul className="cd__footer_top_item_address">{footerAddress}</ul>}
 							<Socials />

@@ -1,0 +1,7 @@
+{
+	"editor.fontSize": 18,
+	"javascript.format.insertSpaceAfterSemicolonInForStatements": false,
+	"typescript.format.insertSpaceAfterSemicolonInForStatements": false,
+	"javascript.preferences.importModuleSpecifier": "relative",
+	"typescript.preferences.importModuleSpecifier": "relative"
+}

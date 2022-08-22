@@ -1,13 +1,13 @@
-import Home from './pages/Home/Home';
-import './assets/bootstrap.css';
-import './components/Styles/index.scss';
-import Header from './Layout/Header';
+import './Styles/index.scss';
+import Main from "./Layout/Main/Main";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Home  />
+      <BrowserRouter>
+        <Main />
+      </BrowserRouter>
     </div>
   );
 }
