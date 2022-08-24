@@ -3,9 +3,6 @@ import { NavLink } from "react-router-dom";
 function HeaderMenu() {
 	const [stickyClass, setStickyClass] = useState('relative');
 
-	const [isActive, setIsActive] = useState(false);
-	// This styling will be applied to a <NavLink> when the
-	// route that it links to is currently selected.
 	let activeStyle = {
 		textDecoration: "underline",
 	};

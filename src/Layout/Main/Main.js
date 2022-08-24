@@ -7,9 +7,7 @@ function Main() {
 	return (
 		<div>
 			<Header />
-			<div>
-				<AppRouter  />
-			</div>
+			<AppRouter />
 			<Footer />
 		</div>
 	);

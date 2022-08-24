@@ -1,3 +1,4 @@
+import React from "react";
 import './Styles/index.scss';
 import Main from "./Layout/Main/Main";
 import { BrowserRouter } from "react-router-dom";
