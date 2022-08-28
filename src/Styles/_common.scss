@@ -1,8 +1,42 @@
-
 /* XL Device :1366px. */
 @media only screen and (max-width: 1366px) {
     .container {
         max-width: 1170px;
         width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+.slick-list {
+    margin: -15px !important;
+}
+
+.mb-title-space {
+    margin-bottom: 40px;
+
+    @media (max-width: 1024px) {
+        margin-bottom: 30px;
+    }
+
+    @media (max-width: 1024px) {
+        margin-bottom: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .container {
+        max-width: 540px;
     }
 }

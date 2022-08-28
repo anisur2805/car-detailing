@@ -30,6 +30,9 @@
             &:hover {
                 color: var(--venetian-red);
             }
+            &:last-child {
+                padding-right: 0;
+            }
         }
     }
     &.fixedTop {

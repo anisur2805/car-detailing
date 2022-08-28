@@ -9,7 +9,7 @@ function Services() {
 				<div className="container">
 					<div className="row">
 						<div className="col-md-12 text-center">
-							<h3>Our Services</h3>
+							<h3 className="title mb-title-space">Our Services</h3>
 						</div>
 					</div>
 					<div className="row mb-120px">
