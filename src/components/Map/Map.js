@@ -10,12 +10,13 @@ function Map() {
 			<div className="container">
 				<div className="row cd__map_form">
 					{/* <div className="col-md-12"> */}
-						<div className="col-md-8 cd__map_form_wrapper">
-							<h4>Send Us A Message</h4>
-							<ContactForm />
-						</div>
-						<div className="col-md-4 last-column">
+						<div className="col-md-12 col-lg-4 img-column">
 							<img src={girl} alt="Girl" />
+						</div>
+						<div className="col-md-12 col-lg-8 cd__map_form_wrapper">
+							<h4>Send Us A Message</h4>
+							<p className="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, dolor.</p>
+							<ContactForm />
 						</div>
 					{/* </div> */}
 				</div>
