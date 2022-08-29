@@ -24,18 +24,16 @@ function FooterTop() {
 		"London , UK",
 	];
 
-	const id = useId();
-
 	const menuItem1 = footerMainMenu.map((item, index) => {
 		return (
-			<li key={`${index}-fm`}><a href="#"><i className="bi bi-chevron-right"></i> {item}</a></li>
+			<li key={`${index}-fm`}><a href="#"><i className="fa fa-angle-right"></i> {item}</a></li>
 		);
 	});
 
 	const menuItem2 = footerSecondaryMenu.map((item, index) => {
 
 		return (
-			<li key={`${index}-sm`}><a href="#"><i className="bi bi-chevron-right"></i> {item}</a> 
+			<li key={`${index}-sm`}><a href="#"><i className="fa fa-angle-right"></i> {item}</a> 
 			</li>
 		);
 	});

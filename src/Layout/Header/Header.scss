@@ -27,7 +27,8 @@
             line-height: 38px;
             color: var(--erie-black);
             font-weight: 500;
-            &:hover {
+            &:hover,
+            &.activated {
                 color: var(--venetian-red);
             }
             &:last-child {

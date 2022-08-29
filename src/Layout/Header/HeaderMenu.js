@@ -41,30 +41,25 @@ function HeaderMenu() {
 								<li>
 									<NavLink
 										to="/"
-										className={({ isActive }) =>
-											isActive ? activeClassName : undefined
-										}
+										className={({ isActive }) => "nav-link" + (isActive ? " activated" : "")}
 									>
 										Home
 									</NavLink>
 								</li>
 								<li>
-									<NavLink
-										to="about">
+									<NavLink 
+										to="about"
+										className={({ isActive }) => "nav-link" + (isActive ? " activated" : "")}
+									>
 										About
 									</NavLink>
 								</li>
 								<li>
-									<NavLink to="/service">
-										{({ isActive }) => (
-											<span
-												className={
-													isActive ? activeClassName : undefined
-												}
-											>
-												Service
-											</span>
-										)}
+									<NavLink 
+										to="/service"
+										className={({ isActive }) => "nav-link" + (isActive ? " activated" : "")}
+									>
+										Service
 									</NavLink>
 								</li>
 							</ul>
